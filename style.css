@@ -4,6 +4,20 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 
+.head_ing{
+    font-size: 45px;
+}
+
 .highlight{
     color:coral;
+}
+.common_div{
+    width:40%;
+    float:left;
+    margin:15px 2%;
+    padding:3%;
+}
+
+.common_div img{
+    width:80%;
 }
