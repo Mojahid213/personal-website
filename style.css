@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Roboto Slab', serif;
+    margin:0;
 }
 
 .head_ing{
@@ -20,8 +21,52 @@ body{
 
 .common_div img{
     width:95%;
+    margin:0;
 }
-
+.common_div p{
+    margin-bottom:60px;
+}
+section{
+    height:500px;
+    background-repeat: no-repeat;
+}
 .top_banner{
     background-image: url("./img/top-banner.png");
+}
+
+.hire_buttom{
+    text-decoration: none;
+     background: linear-gradient(45deg,rgb(253, 142, 130), rgb(238, 92, 66));
+    color:snow;
+    padding:10px 20px;
+    margin-left: 20px;
+    border:3px solid snow;
+    border-radius: 2px;
+}
+.hire_buttom:hover{
+    color:black;
+    border:3px solid black;
+    background:none;
+    transition: 0.3s ease;
+}
+
+
+.sec_tion{
+    background-image: url(./img/dream-bg.png);
+    margin:20px 0;
+}
+.nxt_div h1{
+    font-size: 50px;
+}
+.nxt_div{
+    width:40%;
+    float:right;
+    margin:20px 3%;
+    padding:2%;
+}
+.nxt_div p{
+    margin-bottom: 25px;
+}
+.nxt_div img{
+    width:90%;
 }
