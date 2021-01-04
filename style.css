@@ -41,7 +41,7 @@ section{
     padding:10px 20px;
     margin-left: 20px;
     border:3px solid snow;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 .hire_buttom:hover{
     color:black;
@@ -53,7 +53,9 @@ section{
 
 .sec_tion{
     background-image: url(./img/dream-bg.png);
+    margin-top:40px;
     margin:20px 0;
+    background-position: right;
 }
 .nxt_div h1{
     font-size: 50px;
@@ -65,7 +67,7 @@ section{
     padding:2%;
 }
 .nxt_div p{
-    margin-bottom: 25px;
+    margin-bottom: 60px;
 }
 .nxt_div img{
     width:90%;
